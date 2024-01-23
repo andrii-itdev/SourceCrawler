@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserInputFormComponent } from './user-input-form/user-input-form.component';
 import { ViewDashboardComponent } from './view-dashboard/view-dashboard.component';
 import { ViewSourceComponent } from './view-source/view-source.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ViewSourceComponent } from './view-source/view-source.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
